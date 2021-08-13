@@ -5,7 +5,7 @@ import 'package:news_app/constants/app_color.dart';
 ThemeData themeData = ThemeData(
   primarySwatch: Colors.blue,
   appBarTheme: AppBarTheme(
-    backgroundColor: Colors.white,
+    color: Colors.white,
     elevation: 1.0,
     titleSpacing: 0.0,
     titleTextStyle: TextStyle(

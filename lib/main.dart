@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:news_app/config/routes/routes.dart';
-import 'package:news_app/module/dashboard/view/home/news_home.dart';
 import 'package:news_app/utils/helper/bindings.dart';
 import 'config/theme/theme.dart';
 
@@ -20,8 +19,8 @@ class MyApp extends StatelessWidget {
       theme: themeData,
       debugShowCheckedModeBanner: false,
       initialBinding: ControllerBindings(),
-      initialRoute: NewsHome.routeName,
-      getPages: getPages,
+      initialRoute: AppRoutes.home,
+      getPages: AppRoutes.getPages,
       defaultTransition: Transition.cupertino,
     );
   }
