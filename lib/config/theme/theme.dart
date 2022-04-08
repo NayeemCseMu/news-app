@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:news_app/constants/app_color.dart';
 
 //GetMaterialApp ThemeData
 ThemeData themeData = ThemeData(
   primarySwatch: Colors.blue,
+  textTheme: GoogleFonts.latoTextTheme(),
   appBarTheme: AppBarTheme(
     color: Colors.white,
     elevation: 1.0,
